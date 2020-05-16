@@ -18,7 +18,7 @@ public class StartPage extends BasePage {
      */
     public void isPageOpened() {
 //        Add verifications implemented using WebDriverWait that would be checking if the page is actually opened
-        getWait().until(ExpectedConditions.titleIs("craigslist: new york city jobs, apartments, for sale, services, community, and events"));
+        getWait().until(ExpectedConditions.titleIs("facebook: - Log In or Sign In"));
     }
 
 //    other step definitions go here
